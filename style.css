@@ -31,14 +31,13 @@ padding: 10px;
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #edeef0;
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
+    
 }
 input{
+    display: flex;
     flex: 1;
     border: none;
     outline: none;
@@ -46,9 +45,14 @@ input{
     padding: 10px;
     font-weight: 14px;
     font-size: 17px;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
 }
 button{
-    border: none;
+    display: flex;
+    border: solid;
     outline: none;
     padding: 16px 50px;
     background-color: #ffeed7;
@@ -56,6 +60,7 @@ button{
     font-size: 22px;
     cursor: pointer;
     border-radius: 40px;
+    
 }
 ul li{
     list-style: none;
